@@ -41,4 +41,9 @@ def hello_view(request, name):
     return render(request, "hello.html", context)
 
 
+def home_view(request):
+    context = {
+        "team_names": ["Management", "Procurement", "Document", "Community"]
+    }
 
+    return render(request, "index.html", context)
