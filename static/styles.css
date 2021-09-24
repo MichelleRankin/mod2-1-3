@@ -1,0 +1,35 @@
+body {
+  background-color: darkred;
+  font-family: Italianno, cursive;
+  font-size: 150%;
+  padding: 5%;
+}
+
+h1,
+h2,
+p {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+li {
+  color: white;
+  text-align: left;
+  text-shadow: 2px 2px black;
+}
+.h3 {
+  text-align: left;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
